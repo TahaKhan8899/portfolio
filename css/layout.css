@@ -923,7 +923,7 @@ call-to-action .button {
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
-#contact {
+#contactMe {
   background: #191919;
   padding-top: 96px;
   padding-bottom: 102px;
@@ -933,28 +933,39 @@ call-to-action .button {
   margin-bottom: 42px;
 }
 
-#contact a,
-#contact a:visited {
+#contactMe a,
+#contactMe a:visited {
   color: #11abb0;
 }
-#contact a:hover,
-#contact a:focus {
+#contactMe a:hover,
+#contactMe a:focus {
   color: #fff;
 }
 
-#contact h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+#contactMe h1 {
+  font: 40px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #ebeeee;
   margin-bottom: 6px;
 }
-#contact h1 span {
+
+#contactMe h1 span {
   display: none;
 }
-#contact h1:before {
+#contactMe .r1 h2:before {
   font-family: "FontAwesome";
-  content: "\f0e0";
+  content: "\f003";
+  padding-right: 10px;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: left;
+  float: left;
+  color: #ebeeee;
+}
+#contactMe .r2 h2:before {
+  font-family: "FontAwesome";
+  content: "\f095";
   padding-right: 10px;
   font-size: 72px;
   line-height: 72px;
